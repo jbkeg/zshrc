@@ -1,6 +1,8 @@
-# Tempfiles
-custom/**/*
-!custom/*.zsh
+# Oh-my-zsh
+omz/custom/**/*
+!omz/custom/*.zsh
+
+# Backups
 backup/*
 
 # General
