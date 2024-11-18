@@ -5,12 +5,12 @@ Jons' personal zshell configuration enhanced with [oh-my-zsh](https://ohmyz.sh/)
 ## Table of contents
 
 - [zshrc](#zshrc)
-  - [Table of contents](#table-of-contents)
-  - [Installation](#installation)
-    - [Pre-Install](#pre-install)
-    - [Install](#install)
-    - [Post-install](#post-install)
-    - [Uninstallation](#uninstallation)
+	- [Table of contents](#table-of-contents)
+	- [Installation](#installation)
+		- [Pre-Install](#pre-install)
+		- [Install](#install)
+		- [Post-install](#post-install)
+		- [Uninstallation](#uninstallation)
 
 ## Installation
 
@@ -32,6 +32,7 @@ Run install script to install `omz` and `p10k` and it's own `dotfiles`
 ### Post-install
 
 Enable or disable omz plugins and customize
+Select color schemes you want to implement into Iterm2
 
 ### Uninstallation
 

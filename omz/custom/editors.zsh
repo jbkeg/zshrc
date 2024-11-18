@@ -27,7 +27,12 @@ function nvims() {
 	NVIM_APPNAME=$NVIM_APPNAME nvim "$@"
 }
 
-alias edits=nvims
+if [[ -n $SSH_CONNECTION ]]; then
+	export EDITOR='vim'
+else
+	export EDITOR='code --wait'
+fi
+alias edit=nvim
 
 alias emacs="emacs -nw"
 alias doomemacs="emacs --with-profile doom -nw"
