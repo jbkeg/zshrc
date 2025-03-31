@@ -39,24 +39,17 @@ global_update() {
         print_separator
     }
 
-    # Function to update NPM packages globally
-    update_npm() {
-        print_message "$green" "Updating NPM packages globally..."
-        npm update -g
-        print_separator
-    }
+    # Function to update mise
+	update_mise() {
+		print_message "$green" "Updating Mise..."
+		mise upgrade
+		print_separator
+	}
 
     # Function to update gcloud CLI
     update_gcloud() {
         print_message "$green" "Updating gcloud CLI..."
         gcloud components update --quiet
-        print_separator
-    }
-
-    # Function to update flutter
-    update_flutter() {
-        print_message "$green" "Upgrading flutter..."
-        fvm flutter upgrade
         print_separator
     }
 
@@ -85,9 +78,8 @@ global_update() {
     # Run all updates
     update_homebrew
     update_omz    # For Oh My Zsh update
-    update_npm
+	update_mise
     update_gcloud
-    update_flutter
     update_rust
     update_app_store
     organize_launchpad

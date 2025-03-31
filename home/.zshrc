@@ -162,10 +162,6 @@ eval "$(pyenv init -)"
 # Pyenv Virtualenv
 eval "$(pyenv virtualenv-init -)"
 
-# fvm
-alias flutter="fvm flutter"
-alias dart="fvm dart"
-
 # Rust
 . "$HOME/.cargo/env"
 

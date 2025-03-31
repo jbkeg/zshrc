@@ -47,6 +47,6 @@ done
 
 # Clean up backup directory
 log_task "Cleaning up backup directory..."
-find . ! -name ".gitkeep" -delete
+find "$backup_dir" ! -name ".gitkeep" -delete
 
 log_task "Uninstallation complete!"

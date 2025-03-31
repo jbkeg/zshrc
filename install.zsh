@@ -26,7 +26,7 @@ script_dir="$(cd -P -- "$(dirname -- "$(command -v -- "$0")")" && pwd -P)"
 # Ensure backup directory exists
 backup_dir="$script_dir/backup"
 
-# Install bash-it if not already installed
+# Install omz if not already installed
 omz_dir="$HOME/.oh-my-zsh"
 if ! command -v omz &>/dev/null && [ ! -d $omz_dir ]; then
 	log_task "Installing oh-my-zsh..."
